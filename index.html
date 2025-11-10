@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pomodoro Timer</title>
+        <link rel="stylesheet" href="style.css">
+        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+        <script src="script.js"></script>
+</head>
+<body>
+    <h1 id="header">POMODORO TIMER</h1>
+    <div class="container"> 
+        <div id="time"> 
+            <span class="digit" id="min"> 
+                25</span> 
+            <span class="txt" id="txt">:</span> 
+            <span class="digit" id="sec"> 
+                00</span>
+        </div>
+    </div><br>
+    <div id="buttons">
+        <button id="startTimerButton" class="btn" onclick=startTimer()>START TIMER</button>
+        <button id="stopTimerButton" class="btn" onclick=stopTimer()>STOP TIMER</button>
+        <button id="resetTimerButton" class="btn" onclick=resetTimer()>RESET TIMER</button>
+        <button id="breakFor10MinsButton" class="btn" onclick=breakFor10Mins()>START BREAK</button>
+    </div>
+</body>
+</html>
